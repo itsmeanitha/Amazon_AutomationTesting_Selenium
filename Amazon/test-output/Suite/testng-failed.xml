@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.CreateAccountTest">
+        <methods>
+          <include name="initseup"/>
+          <include name="close"/>
+          <include name="Title"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CreateAccountTest -->
+      <class name="com.amazon.qa.testcases.YourOrdersTest">
+        <methods>
+          <include name="testOrdersLink1"/>
+          <include name="close"/>
+          <include name="initseup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.YourOrdersTest -->
+      <class name="com.amazon.qa.testcases.YourPaymentsTest">
+        <methods>
+          <include name="addpayment"/>
+          <include name="close"/>
+          <include name="initseup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.YourPaymentsTest -->
+      <class name="com.amazon.qa.testcases.SearchingSortingFilteringTest">
+        <methods>
+          <include name="Title"/>
+          <include name="close"/>
+          <include name="initseup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SearchingSortingFilteringTest -->
+      <class name="com.amazon.qa.testcases.ShoppingCartTest">
+        <methods>
+          <include name="verifyAddQuantity"/>
+          <include name="close"/>
+          <include name="initseup"/>
+          <include name="verifyRemoveAllIteminCart"/>
+          <include name="verifyAddSameItemMultipleTimes"/>
+          <include name="verifyClickOnTheItemIntheCart"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.ShoppingCartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

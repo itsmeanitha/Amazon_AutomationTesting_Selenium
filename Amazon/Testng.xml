@@ -1,0 +1,18 @@
+
+<suite name="Testing Amazon App" parallel="tests">
+	<test name="Regression" allow-return-values="true">
+		<classes>
+		<class name="com.amazon.qa.testcases.AddItemCloseandReopen" />
+			<class name="com.amazon.qa.testcases.CreateAccountTest" />
+			<class name="com.amazon.qa.testcases.LoginAndSecurityTest" />
+			<class name="com.amazon.qa.testcases.SecuritySortingFilteringTest" />
+			<class name="com.amazon.qa.testcases.ShoppingCartTest" />
+			<class name="com.amazon.qa.testcases.SigninTest" />
+			<class name="com.amazon.qa.testcases.YourAccountTest" />
+			<class name="com.amazon.qa.testcases.YourAddressTest" />
+			<class name="com.amazon.qa.testcases.YourOrdersTest" />
+			<class name="com.amazon.qa.testcases.YourPaymentsTest" />
+			
+		</classes>
+	</test>
+</suite>
